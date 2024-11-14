@@ -14,7 +14,7 @@
 ### 原图
 ![dog_dirty](data/content_images/dog.jpg)
 
-### 结果（风格分别是dirty,snow,fire和VanGogh)
+### 结果（风格分别是dirty,fire,snow和VanGogh)
 ![dog_dirty](results/dog_dirty.jpg)
 ![dog_fire](results/dog_fire.jpg)
 ![dog_snow](results/dog_snow.jpg)
