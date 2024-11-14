@@ -7,7 +7,12 @@
 为了观察结果，请解压data_results.zip
 以下是使用风格迁移生成的图片：
 
-### 单独处理的图片
+### 单独处理的图片(原图是小金毛，风格有四种，目标类别是电影院，下面四张图都是攻击成功的结果，具体数据可以看results/style_transfer_results.txt，
+
+### 原图
+![dog_dirty](data/content_images/dog.jpg)
+
+### 结果
 ![dog_dirty](results/dog_dirty.jpg)
 ![dog_fire](results/dog_fire.jpg)
 ![dog_snow](results/dog_snow.jpg)
@@ -51,7 +56,7 @@
 
 1. 将内容图片（jpg）放入 `data/content_images/` 文件夹（没有可以创建）。
 2. 将风格图片（jpg）放入 `data/style_images/` 文件夹。
-3. 运行风格迁移脚本：
+3. 运行风格迁移脚本：你可以根据自己的需要改变下面命令的参数
 
    ```bash
    python test_style_transfer.py --content_image "your_content_image" --style_image "your_style_image" --num_steps 2000 --content_weight 3 --style_weight 2e4 --adv_weight 3 
