@@ -74,6 +74,9 @@
 - `--adv_weight`: 对抗损失权重 (默认: 3)
 - `--loop`: 是否处理 `data/content_images/last` 文件夹下的所有图片
 
+## 备注
+如果你希望用tensorBoard查看训练时损失，将models/style_transfer.py中的相关备注代码取消备注，并在环境中安装tensorflow就可以看啦！
+
 ## 贡献
 
 欢迎提交问题和贡献代码！
