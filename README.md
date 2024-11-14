@@ -2,6 +2,28 @@
 
 这个项目实现了将风格迁移与对抗样本生成相结合的方法，用于生成具有自然视觉效果的对抗样本。
 
+## 结果展示
+生成图片的预测标签以及详细损失保存在results/style_transfer_results.txt中，但是由于图片太大了，所以我压缩之后再上传了，
+为了观察结果，请解压data_results.zip
+以下是使用风格迁移生成的图片：
+
+### 单独处理的图片
+![dog_dirty](results/dog_dirty.jpg)
+![dog_fire](results/dog_fire.jpg)
+![dog_snow](results/dog_snow.jpg)
+![dog_vangogh](results/dog_vangogh.jpg)
+
+### last 文件夹中的图片
+![dog_fire](results/last/ambulance_fire.jpg)
+![dog_fire](results/last/barn_fire.jpg)
+![dog_fire](results/last/castle_fire.jpg)
+![dog_fire](results/last/castle2_fire.jpg)
+![dog_fire](results/last/chapel_fire.jpg)
+![dog_fire](results/last/dogge_fire.jpg)
+![dog_fire](results/last/LenShelter_fire.jpg)
+![dog_fire](results/last/ship_fire.jpg)
+![dog_fire](results/last/wolf_fire.jpg)
+
 ## 环境要求
 
 - Python 3.8+
@@ -27,7 +49,7 @@
 
 ## 使用方法
 
-1. 将内容图片（jpg）放入 `data/content_images/` 文件夹。
+1. 将内容图片（jpg）放入 `data/content_images/` 文件夹（没有可以创建）。
 2. 将风格图片（jpg）放入 `data/style_images/` 文件夹。
 3. 运行风格迁移脚本：
 
@@ -46,27 +68,6 @@
 - `--style_weight`: 风格损失权重 (默认: 2e4)
 - `--adv_weight`: 对抗损失权重 (默认: 3)
 - `--loop`: 是否处理 `data/content_images/last` 文件夹下的所有图片
-
-## 结果展示
-生成图片的预测标签以及详细损失保存在results/style_transfer_results.txt中。
-以下是使用风格迁移生成的图片：
-
-### 单独处理的图片
-![dog_dirty](results/dog_dirty.jpg)
-![dog_fire](results/dog_fire.jpg)
-![dog_snow](results/dog_snow.jpg)
-![dog_vangogh](results/dog_vangogh.jpg)
-
-### last 文件夹中的图片
-![dog_fire](results/last/ambulance_fire.jpg)
-![dog_fire](results/last/barn_fire.jpg)
-![dog_fire](results/last/castle_fire.jpg)
-![dog_fire](results/last/castle2_fire.jpg)
-![dog_fire](results/last/chapel_fire.jpg)
-![dog_fire](results/last/dogge_fire.jpg)
-![dog_fire](results/last/LenShelter_fire.jpg)
-![dog_fire](results/last/ship_fire.jpg)
-![dog_fire](results/last/wolf_fire.jpg)
 
 ## 贡献
 
