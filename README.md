@@ -63,8 +63,12 @@
    ```bash
    python test_style_transfer.py --content_image "your_content_image" --style_image "your_style_image" --num_steps 2000 --content_weight 3 --style_weight 2e4 --adv_weight 3 
    ```
-
-4. 结果将保存在 `results/` 文件夹中。
+   如果想要快速复现我的结果，感受这个项目，对于小鸡毛，命令是这样的：
+   
+   ```bash
+   python test_style_transfer.py  
+   ```
+5. 结果将保存在 `results/` 文件夹中。
 
 ## 参数说明
 
