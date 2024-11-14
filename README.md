@@ -12,13 +12,13 @@
 ### 原图
 ![dog_dirty](data/content_images/dog.jpg)
 
-### 结果
+### 结果（风格分别是dirty,snow,fire和VanGogh)
 ![dog_dirty](results/dog_dirty.jpg)
 ![dog_fire](results/dog_fire.jpg)
 ![dog_snow](results/dog_snow.jpg)
 ![dog_vangogh](results/dog_vangogh.jpg)
 
-### last 文件夹中的图片
+### last 文件夹中的图片 （风格是fire🔥，目标是电影院）
 ![dog_fire](results/last/ambulance_fire.jpg)
 ![dog_fire](results/last/barn_fire.jpg)
 ![dog_fire](results/last/castle_fire.jpg)
