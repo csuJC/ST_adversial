@@ -49,7 +49,7 @@
 2. 克隆项目并安装依赖：
 
    ```bash
-   git clone [https://github.com/your_username/adv_style_transfer.git](https://github.com/csuJC/ST_adversial.git)
+   git clone https://github.com/csuJC/ST_adversial.git
    cd adv_style_transfer
    pip install -r requirements.txt
    ```
