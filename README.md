@@ -69,17 +69,17 @@
    python test_style_transfer.py  
    ```
 5. 结果将保存在 `results/` 文件夹中。
-
+   
 ## 参数说明
-
-- `--content_image`: 内容图片名称 (默认: dog)
-- `--style_image`: 风格图片名称 (默认: fire)
-- `--num_steps`: 训练迭代次数 (默认: 2000)
-- `--content_weight`: 内容损失权重 (默认: 3)
-- `--style_weight`: 风格损失权重 (默认: 2e4)
-- `--adv_weight`: 对抗损失权重 (默认: 3)
-- `--loop`: 是否处理 `data/content_images/last` 文件夹下的所有图片
-
+- `--content_image`: 内容图片名称 (默认: `dog`)
+- `--style_image`: 风格图片名称 (默认: `fire`)
+- `--num_steps`: 训练迭代次数 (默认: `2000`)
+- `--content_weight`: 内容损失权重 (默认: `3`)
+- `--style_weight`: 风格损失权重 (默认: `2e4`)
+- `--adv_weight`: 对抗损失权重 (默认: `3`)
+- `--loop`: 是否处理 `last` 文件夹下的所有图片 (该参数为布尔型标志，存在则处理该文件夹下所有图片，否则只处理单个输入)
+- `--target_class_name`: 目标类别名称，例如：`cinema` (默认: `cinema`)
+- `--optimizer_type`: 优化器类型 (默认: `adam`，可选：`lbfgs`)
 ## 备注
 如果你希望用tensorBoard查看训练时损失，将models/style_transfer.py中的相关备注代码取消备注，并在环境中安装tensorflow就可以看啦！
 
